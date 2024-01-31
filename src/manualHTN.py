@@ -109,7 +109,7 @@ def wooden_axe_for_wood (state, ID):
 
 # your code here
 
-pyhop.declare_methods ('produce_wood', wooden_axe_for_wood, punch_for_wood)
+pyhop.declare_methods ('produce_wood', wooden_axe_for_wood, punch_for_wood) # a or b , a and b
 pyhop.declare_methods ('produce_planks', craft_plank)
 pyhop.declare_methods ('produce_sticks', craft_sticks)
 pyhop.declare_methods ('produce_bench', craft_bench)
@@ -130,7 +130,7 @@ state.stick = {'agent': 0}
 state.plank = {'agent': 0}
 
 # pyhop.print_operators()
-# pyhop.print_methods()
-pyhop.print_operators()
+pyhop.print_methods()
+#pyhop.print_operators()
 #pyhop.pyhop(state, [('have_enough', 'agent', 'wood', 1)], verbose=3)
 pyhop.pyhop(state, [('have_enough', 'agent', 'wood', 12)], verbose=3)
