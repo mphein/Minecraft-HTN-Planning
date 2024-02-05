@@ -4,7 +4,7 @@ HTN, Hierarchical Task Network, a problem decomposition planner. They represent 
 
 A python implementation of an HTN for Minecraft crafting recipes. AutoHTN reads in recipes from a JSON file and converts them into operators and methods.
 
-Example located in example.txt
+Example located in src/example.txt
 
 Challenges: Figuring out how to read crafting recipes in JSON and have them read into operators and methods. Understanding the recursive nature of an HTN calling itself but with different subtasks which eventually build back into the item/resource.
 
