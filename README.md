@@ -8,4 +8,4 @@ Example located in example.txt
 
 Challenges: Figuring out how to read crafting recipes in JSON and have them read into operators and methods. Understanding the recursive nature of an HTN calling itself but with different subtasks which eventually build back into the item/resource.
 
-Learned: How to use HTN's in a familiar game's context. 
+Learned: How to utilize HTN's as a means for AI planning in a familiar game's context. 
